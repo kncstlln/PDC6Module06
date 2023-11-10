@@ -24,5 +24,15 @@ namespace PDC6Module06
         {
             await Navigation.PushAsync(new ConnectivityPage());
         }
+
+        private async void Battery_Page_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new DeviceBatteryPage());
+        }
+
+        private async void GeolocationPage_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new GeolocationPage());
+        }
     }
 }

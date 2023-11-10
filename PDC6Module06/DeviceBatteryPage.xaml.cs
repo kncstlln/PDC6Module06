@@ -40,5 +40,17 @@ namespace PDC6Module06
             color = color.Value;
             LabelBatteryLevel.Text = status;
         }
+        
+        void Battery_BatteryInfoChanged(object sender, BatteryInfoChangedEventArgs e)
+        {
+            SetBackground(e.ChargeLevel, e.State == BatteryState.Charging);
+        }
+
+        protected override void OnDisappearing()
+        {
+            base.OnDisappearing();
+            Battery.BatteryInfoChanged -= Battery_BatteryInfoChanged;
+        }
+
     }
 }

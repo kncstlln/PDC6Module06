@@ -15,3 +15,5 @@ C:\Users\User\source\repos\PDC6Module06\PDC6Module06\bin\Debug\netstandard2.0\re
 C:\Users\User\source\repos\PDC6Module06\PDC6Module06\bin\Debug\netstandard2.0\PDC6Module06.pdb
 C:\Users\User\source\repos\PDC6Module06\PDC6Module06\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\User\source\repos\PDC6Module06\PDC6Module06\obj\Debug\netstandard2.0\ConnectivityPage.xaml.g.cs
+C:\Users\User\source\repos\PDC6Module06\PDC6Module06\obj\Debug\netstandard2.0\DeviceBatteryPage.xaml.g.cs
+C:\Users\User\source\repos\PDC6Module06\PDC6Module06\obj\Debug\netstandard2.0\GeolocationPage.xaml.g.cs
